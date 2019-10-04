@@ -35,10 +35,10 @@ int[] imgDices =  {
             @Override
             public void onClick(View v) {
                 Random rRandom = new Random();
-                int number = rRandom.nextInt(6);
-               imgleft.setImageResource(imgDices[number]);
-               number = rRandom.nextInt(6);
-               imgright.setImageResource(imgDices[number]);
+                int numbers = rRandom.nextInt(6);
+               imgleft.setImageResource(imgDices[numbers]);
+               numbers = rRandom.nextInt(6);
+               imgright.setImageResource(imgDices[numbers]);
             }
         });
     }
